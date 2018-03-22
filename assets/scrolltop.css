@@ -1,0 +1,17 @@
+/*
+ *	Button go to top of page
+ */
+body #scrollUp {
+	display: none;
+	position: fixed;
+	bottom: 35px;
+	right: 30px;
+	z-index: 2000;
+	width: 51px;
+	height: 51px;
+	background: url(button_gotop51x51.png) 0 0 no-repeat;
+	opacity: .5;
+}
+body #scrollUp:hover {
+	opacity: .9;
+}
